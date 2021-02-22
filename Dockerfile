@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y \
   libxml2-dev \
   libssl-dev
 
-RUN R -e "install.packages(c('shiny', 'shinyMobile', 'apexcharter', 'stringr', 'dplyr'), repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages(c('shiny', 'shinyMobile', 'stringr', 'dplyr', 'apexcharter', 'leaflet'), repos='https://cloud.r-project.org/')"
 
 RUN mkdir /root/app
 
