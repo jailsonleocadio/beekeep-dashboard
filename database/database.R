@@ -58,7 +58,6 @@ videos$weather = trimws(videos$weather)
 videos$weather = as.factor(videos$weather)
 videos$weather = factor(videos$weather, levels = c("Chuva forte", "Chuva fraca", "Coberto por nuvens de chuva/nublado", "Parcialmente coberto por nuvens", "Céu aberto sem nuvens"))
 
-
 videos$nest = trimws(videos$nest)
 videos$nest = as.character(videos$nest)
 
