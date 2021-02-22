@@ -1,6 +1,5 @@
 .DS_Store
 .Rhistory
-Rprofile.site
 dashboard/database/data_old.csv
 dashboard/database/counts.csv
 dashboard/database/videos.csv
